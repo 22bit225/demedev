@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    font-size: 50px;
+    margin-top: 50px;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    color: lightgrey;
+    border: 3px solid rgb(158, 158, 158);
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(120deg, #A976C5, #DCAFE6);
+}
+.user{
+    margin-bottom: 50px;
+}
+
+.container {
+    width: calc(100% - 2rem);
+    max-width: 1000px;
+    margin-inline: auto;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+
+.signupBox {
+    background: #fff;
+    padding: 60px 32px 36px;
+    margin-top: -150px;
+    width: 430px;
+    border-radius: 12px;
+    box-shadow: 5px 10px 15px rgba(26, 26, 26, .4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-size: 14px;
+    color: rgba(26, 26, 26, .8);
+}
+
+label {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    align-self: flex-start;
+}
+input{
+    float: right;
+    margin-left: 50px;
+}
+#rmeCheck{
+    margin-right: 40%;
+}
+.signupBox > input {
+    width: 100%;
+    height: 28px;
+    border-radius: 5px;
+    border: none;
+    outline: 1.5px solid rgba(26, 26, 26, .5);
+    padding-left: 10px;
+}
+
+.signupBox > input:focus {
+    border: none;
+    outline: 1.5px solid purple;
+}
+
+.rememberMe {
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 8px 22px;
+    margin-left: 33%;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    background: #A326FF;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.signupLinks {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+
+.signupLinks > a {
+    font-size: 14px;
+    text-decoration: none;
+    transition: all ease-in-out 250ms;
+    color: #A326FF;
+    text-shadow: 5px  rgba(26, 26, 26, .4);
+}
+
+.signupLinks > a:hover {
+    text-decoration: underline;
+}
+
+

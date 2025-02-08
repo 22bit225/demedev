@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header><center>Login me</center></header>
+
+    <div class="container">
+        <div class="signupBox">
+            <img class="user" src="./image/user.png" alt="user" width="100" height="100">
+
+            <form action="connect.php" method="post">
+
+               <label for="userName">User Name</label>
+               <input type="text" id="userName" class="userName" name="username"><br><br>
+   
+               <label for="email">Email</label>
+               <input type="email" id="email" class="email" name="email"><br><br>
+   
+               <label for="pswd">Password</label>
+               <input type="password" id="pswd" name="pword">
+   
+               <div class="rememberMe">
+                   <center><input type="checkbox" id="rmeCheck"></center>
+                   <label for="rmeCheck">Remember Me</label>
+               </div>
+
+               <button class="btn" type="submit">Sign Up</button>
+
+            </form>
+
+
+            
+
+            <div class="signupLinks">
+                <a href="/">Forgot Password</a>
+                <a href="">Already have an account</a>
+            </div>
+
+
+            
+        </div>
+    </div>
+
+</body>
+
+</html>
+
