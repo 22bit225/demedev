@@ -1,1 +1,3 @@
 this is the merge text file
+
+this is the next commit para
